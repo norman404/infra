@@ -16,7 +16,7 @@ pipeline {
     stage('Run Terraform') {
       steps {
         sh 'chmod +x ./bash/terraform.sh'
-        sh './bash/terrafrorm.sh'
+        sh './bash/terraform.sh'
       }
     }
   }
